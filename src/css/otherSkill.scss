@@ -1,0 +1,5 @@
+#skillList{@extend #workList}
+.skillTitle{@extend .company}
+.otherSkill p{
+	@extend .listDetail;
+}

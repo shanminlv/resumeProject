@@ -1,0 +1,11 @@
+.schoolBig .schoolIcon{
+	@include back('../images/practice.png');
+}
+.skillName span:last-child{
+	float: right;
+	color:black;
+}
+
+.skillName {
+	@include clearfix;
+}

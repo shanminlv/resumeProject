@@ -1,0 +1,70 @@
+
+
+.left>div:not(:first-child),.right>div:not(:first-child){
+	margin-top:10px;
+}
+
+@media screen and (max-width:800px) {
+	.left,.right{
+	width:100%;
+	padding-right:20px;
+	}
+	.right>div{
+		margin-top:10px;
+	}
+}
+
+@media screen and (min-width:800px) {
+	.left,.right{
+		width:50%;
+		padding-right:20px;
+		float:left;
+		@include clearfix;
+	}
+}
+
+.bigTitle{
+	@include clearfix;
+	color:$blue;
+	.bigIcon{
+		width: 10%;
+		float: left;
+	}
+	.titleName{
+		float: left;
+		margin-left: 20px;
+		p:first-child{
+			font-size: 20px;
+		}
+		p:last-child{
+			font-size: 14px;
+		}
+	}
+}
+
+#workList{
+	border-left:5px solid $blue;
+	padding-left:20px;
+}
+.detail{
+	font-size: $listpx;
+}
+.company{
+	background: $gray;
+	padding:0 20px;
+	border-radius:5px;
+	color:#fff;
+	span{
+		float: right;
+		line-height: 24px;
+	}
+}
+.job{
+	font-weight: bold;
+	padding:5px 0;
+	color:darken($blue,20%);
+}
+.detail{
+	@include back('../images/workDetail.png');
+}
+

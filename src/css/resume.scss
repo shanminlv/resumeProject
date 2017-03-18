@@ -1,0 +1,90 @@
+@import "common.scss";
+@import "top.scss";
+@import "workExperience.scss";
+@import "frontEnd.scss";
+@import "otherSkill.scss";
+@import "project.scss";
+@import "school.scss";
+
+
+.wrapper{
+	width:100%;
+	margin:0 auto;
+	padding-bottom: 20px;
+    }
+
+#content{
+	padding:10px 40px;
+	@include clearfix;
+}
+
+@media screen and (min-width:800px) {
+	.wrapper{
+		max-width: 1000px;
+	    }
+	.top{
+		position: relative;
+	}
+	.top .message{
+		position: absolute;
+		top:0;
+		width:100%;
+		text-align:center;
+	}
+	.left,.right{
+		width:50%;
+		padding-right:20px;
+		float:left;
+		@include clearfix;
+	}
+
+}
+
+
+
+@media screen and (max-width:800px) {
+	.left,.right{
+	width:100%;
+	padding-right:20px;
+	}
+	.right>div{
+		margin-top:10px;
+	}
+
+}
+
+@media (min-width:740px) and (max-width:800px) {
+	.top{
+		position: relative;
+	}
+	.top .message{
+		position: absolute;
+		top:0;
+		width:100%;
+		text-align:center;
+	}
+}
+
+@media screen and (max-width:740px) {
+	.photo{display:none;}
+	.message{float:right;}
+}
+
+@media screen and (max-width:480px){
+	.top .personal{
+		float:none;
+		width:250px;
+		margin: 0 auto;
+	}
+    #content{
+    	padding:10px 0px 10px 10px;
+    }
+	.top .message{
+		float: none;
+		width: 100%;
+		text-align: center;
+	}
+	.wrapper{
+		min-width: 320px;
+	}
+}

@@ -1,0 +1,32 @@
+.projectList{
+	@extend #workList;
+}
+.item>div{
+	@include clearfix;
+	@extend .job;
+	line-height:20px;
+	.itemRight{
+		float: right;
+		margin-right: 20px;
+	}
+}
+.itemDetail{
+	@include back('../images/item.png');
+}
+
+.projectBig a{
+	&[href=""]{
+		visibility: hidden;
+	}
+	cursor: pointer;
+	background:url(../images/link.png) no-repeat;
+	background-size:15px 15px;
+	background-position:0 1px;
+	padding-left:20px;
+}
+
+.itemLeft{
+	width:130px;
+	display:inline-block;
+}
+
