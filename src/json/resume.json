@@ -74,8 +74,8 @@
 	"project":[
 		{
 			"name":"vue简历生成工具",
-			"code":"",
-			"demo":"",
+			"code":"https://github.com/shanminlv/vue-resume",
+			"demo":"https://shanminlv.github.io/vue-resume/dist/index.html#/edit/resumeBlue",
 			"time":"2016.11-2017.01",
 			"detail":[
 				"使用vue开发的单页应用，运用vuex对组件的状态和数据进行管理，路由使用vue－router。",
@@ -107,8 +107,8 @@
 		},
 		{
 			"name":"个人网页简历",
-			"code":"",
-			"demo":"",
+			"code":"https://github.com/shanminlv/resumeProject",
+			"demo":"https://shanminlv.github.io/resumeProject/dist/index.html",
 			"time":"2016.11",
 			"detail":[
 				"使用webpack开发打包项目代码。",
@@ -117,8 +117,8 @@
 		},
 		{
 			"name":"ReactJS日期组件",
-			"code":"",
-			"demo":"",
+			"code":"https://github.com/shanminlv/React-Date",
+			"demo":"https://shanminlv.github.io/React-Date/dist/index.html",
 			"time":"2016.10",
 			"detail":[
 				"运用ReactJS，webpack和es6开发的时间选择插件。"
