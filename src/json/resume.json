@@ -86,9 +86,9 @@
 		},
 		{
 			"name":"成长点滴webapp",
-			"code":"",
+			"code":"https://github.com/shanminlv/develop-chatApp",
 			"demo":"",
-			"time":"2016.01",
+			"time":"2016.01-2016.03",
 			"detail":[
 				"运用node.js实现静态资源管理、socket.io模块实现聊天功能、fs模块实现文件的操作和数据的存储。",
 				"运用angular.js的控制器、指令、服务、过滤器和bootstrap构建前端。",
@@ -127,7 +127,7 @@
 		{
 			"name":"页面代码生成器",
 			"code":"https://github.com/shanminlv/pctool",
-			"demo":"http://shanminlv.github.io/pctool/",
+			"demo":"https://shanminlv.github.io/pctool/index.html",
 			"time":"2015.12",
 			"detail":[
 				"个人运用canvas、file API、拖放、开发了日常需求页面的代码生成器。提高了公司的开发效率。"

@@ -14,7 +14,7 @@
     }
 
 #content{
-	padding:10px 40px;
+	padding:10px 20px;
 	@include clearfix;
 }
 
@@ -33,9 +33,11 @@
 	}
 	.left,.right{
 		width:50%;
-		padding-right:20px;
 		float:left;
 		@include clearfix;
+	}
+	.left{
+		padding-right:20px;
 	}
 
 }
@@ -45,8 +47,9 @@
 @media screen and (max-width:800px) {
 	.left,.right{
 	width:100%;
-	padding-right:20px;
 	}
+	.left {
+	padding-right:20px;}	
 	.right>div{
 		margin-top:10px;
 	}

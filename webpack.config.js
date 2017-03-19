@@ -6,7 +6,6 @@ var CopyWebpackPlugin = require('copy-webpack-plugin');
 module.exports = {
         entry: {
         	app: [
-                'webpack-dev-server/client?http://localhost:8080/',
                 './src/js/entry.js'
             ]
         },

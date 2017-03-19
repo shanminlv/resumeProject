@@ -16,7 +16,7 @@
 
 .projectBig a{
 	&[href=""]{
-		visibility: hidden;
+		display: none;
 	}
 	cursor: pointer;
 	background:url(../images/link.png) no-repeat;
@@ -26,7 +26,6 @@
 }
 
 .itemLeft{
-	width:130px;
 	display:inline-block;
 }
 
