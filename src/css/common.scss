@@ -22,7 +22,7 @@ a{text-decoration:none}
 html{height:100%}
 .red{color:#f18184!important;}
 body,html{-webkit-text-size-adjust:none;width:100%;font-family:'Helvetica Neue',Helvetica,'Microsoft Yahei','Hiragino Sans GB','WenQuanYi Micro Hei',sans-serif}
-body{font-size:16px;min-width: 320px;display:none;}
+body{font-size:16px;min-width: 320px;}
 
 @mixin clearfix{
 	&:after{content:'';display:block;height:0;clear:both;}

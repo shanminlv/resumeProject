@@ -114,6 +114,5 @@ String.prototype.template = function(dom) {
 	projectHtml.template(document.getElementById('projectList'));
 	schoolHtml.template(document.getElementById('school'));
 
-
-document.getElementById('body').style.display="block";
+	document.getElementById('body').style.display="block";
 
