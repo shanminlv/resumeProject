@@ -43,7 +43,7 @@
 	"frontEnd":[
 		{
 			"skillName":"<strong class='red'>vue</strong>",
-			"listDetail":["能使用vue，vue－router，vuex和vue-cli开发单页项目。"]
+			"listDetail":["能使用vue，vue-router，vuex和vue-cli开发单页项目。"]
 		},
 		{
 			"skillName":"ReactJS",
@@ -78,7 +78,7 @@
 			"demo":"https://shanminlv.github.io/vue-resume/dist/index.html#/edit/resumeBlue",
 			"time":"2016.11-2017.01",
 			"detail":[
-				"使用vue开发的单页应用，运用vuex对组件的状态和数据进行管理，路由使用vue－router。",
+				"使用vue开发的单页应用，运用vuex对组件的状态和数据进行管理，路由使用vue-router。",
 				"使用自主改造后的vue-cli进行项目开发和打包，提高开发效率。",
 				"运用sass处理css。",
 				"运用htmltocanvas，jspdf，file API，new Blob导出图片版，网页版和pdf版简历。"

@@ -11,7 +11,6 @@ schoolHtml=require('../template/school'),
 topcss=require('../css/resume'),
 resume=require('../json/resume');
 
-document.getElementById('body').style.display="block";
 
 String.prototype.template = function(dom) {
 	var target=this,
@@ -116,4 +115,5 @@ String.prototype.template = function(dom) {
 	schoolHtml.template(document.getElementById('school'));
 
 
+document.getElementById('body').style.display="block";
 
