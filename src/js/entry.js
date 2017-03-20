@@ -8,10 +8,10 @@ frontEndHtml=require('../template/frontEnd'),
 otherSkillHtml=require('../template/otherSkill'),
 projectHtml=require('../template/project'),
 schoolHtml=require('../template/school'),
-otherSchoolHtml=require('../template/otherSchool'),
 topcss=require('../css/resume'),
 resume=require('../json/resume');
 
+document.getElementById('body').style.display="block";
 
 String.prototype.template = function(dom) {
 	var target=this,
@@ -114,7 +114,6 @@ String.prototype.template = function(dom) {
 	otherSkillHtml.template(document.getElementById('otherSkill'));
 	projectHtml.template(document.getElementById('projectList'));
 	schoolHtml.template(document.getElementById('school'));
-	otherSchoolHtml.template(document.getElementById('otherSchool'));
 
 
 

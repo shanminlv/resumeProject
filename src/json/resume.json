@@ -9,7 +9,7 @@
 	"profession":"前端开发工程师",
 	"workExperience":[
 		{
-			"company":"平安科技（深圳）有限公司",
+			"company":"<strong class='red'>平安科技（深圳）有限公司</strong>",
 			"date":"2016.07 ~ 至今",
 			"job":"前端开发工程师",
 			"detail":[
@@ -19,7 +19,7 @@
 			]
 		},
 		{
-			"company":"唯品会",
+			"company":"<strong class='red'>唯品会</strong>",
 			"date":"2015.07-2015.12",
 			"job":"前端开发（实习）",
 			"detail":[
@@ -42,8 +42,8 @@
 	],
 	"frontEnd":[
 		{
-			"skillName":"vue",
-			"listDetail":["能使用vue，vue－router，vuex和vue－li开发单页项目。"]
+			"skillName":"<strong class='red'>vue</strong>",
+			"listDetail":["能使用vue，vue－router，vuex和vue-cli开发单页项目。"]
 		},
 		{
 			"skillName":"ReactJS",
@@ -55,7 +55,7 @@
 		},
 		{
 			"skillName":"前端工程化",
-			"listDetail":["基本会gulp和webpack，并运用gulp和webpack开发了多个个人项目。"]
+			"listDetail":["基本会gulp和<strong class='red'>webpack</strong>，并运用gulp和webpack开发了多个个人项目。"]
 		},
 		{
 			"skillName":"JavaScript/jQuery/Bootstrap",
@@ -67,13 +67,13 @@
 		}
 	],
 	"otherSkill":[
-		"能运用Node.js搭建服务器，并运用Node.js开发了个人项目。",
+		"能运用<strong class='red'>Node.js</strong>搭建服务器，并运用Node.js开发了个人项目。",
 		"简单使用过MongoDB，可以用Node.js对数据进行增减删操作。",
 		"基本会使用Photoshop设计美化图片。"
 	],
 	"project":[
 		{
-			"name":"vue简历生成工具",
+			"name":"<strong class='red'>vue简历生成工具</strong>",
 			"code":"https://github.com/shanminlv/vue-resume",
 			"demo":"https://shanminlv.github.io/vue-resume/dist/index.html#/edit/resumeBlue",
 			"time":"2016.11-2017.01",
@@ -85,7 +85,7 @@
 			]
 		},
 		{
-			"name":"成长点滴webapp",
+			"name":"<strong class='red'>成长点滴webapp</strong>",
 			"code":"https://github.com/shanminlv/develop-chatApp",
 			"demo":"",
 			"time":"2016.01-2016.03",
@@ -103,6 +103,18 @@
 			"detail":[
 				"运用angular.js的控制器、指令、服务、过滤器和bootstrap构建公司的单页网站。",
 				"运用git合作开发项目。"
+			]
+		},
+		{
+			"name":"非车保险H5旧模版的项目重构",
+			"code":"",
+			"demo":"",
+			"time":"2017.02－2016.03",
+			"detail":[
+				"运用zepto.js和LABjs对原来的代码进行重构。",
+				"运用svn进行合作开发项目。",
+				"使用sessionStorage对用户数据进行存储。",
+				"提取公共代码，提高代码重用率,优化代码提高代码效率与可读性。"
 			]
 		},
 		{
@@ -141,8 +153,7 @@
 			"detail":[
 				"移动高级记账簿-----运用localStorage存储客户端的账本数据、canvas实现项目圆饼及折线数据统计图。",
 				"广州通项目-----负责广州通项目的开发，把广州通APP转换成HTML5的页面，并顺利高效完成了任务。",
-				"非车保险H5新模版的开发。",
-				"非车保险H5旧模版的项目重构。"
+				"非车保险H5新模版的开发。"
 			]
 		}
 	],
