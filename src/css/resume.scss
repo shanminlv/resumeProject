@@ -5,8 +5,13 @@
 @import "otherSkill.scss";
 @import "project.scss";
 @import "school.scss";
-
-
+/* 
+a.itemRight{
+	display:none;
+} */
+.webResume{
+	display:none;
+}
 .wrapper{
 	width:100%;
 	margin:0 auto;
@@ -18,6 +23,10 @@
 	@include clearfix;
 }
 
+.left,.right{
+	padding-right:20px;
+}
+
 @media screen and (min-width:800px) {
 	.wrapper{
 		max-width: 1000px;
@@ -26,25 +35,20 @@
 		position: relative;
 	}
 	.top .message{
-		position: absolute;
-		top:0;
-		width:100%;
+		width:200px;
 		text-align:center;
+		@include middle;
 	}
 	.left,.right{
 		width:50%;
 		float:left;
 		@include clearfix;
 	}
-	.left{
-		padding-right:20px;
-	}
-
 }
 
 
 
-@media screen and (max-width:800px) {
+@media  (min-width:680px) and (max-width:800px) {
 	.left,.right{
 	width:100%;
 	}
@@ -53,27 +57,52 @@
 	.right>div{
 		margin-top:10px;
 	}
-
+	.message{
+		float: right;
+		margin-right: 40px;
+	}
+	.top .webResume{
+		display: none;
+		margin-right: 40px;
+	}
 }
 
-@media (min-width:740px) and (max-width:800px) {
-	.top{
-		position: relative;
-	}
-	.top .message{
-		position: absolute;
-		top:0;
+
+@media  (min-width:530px) and (max-width:680px) {
+	.left,.right{
 		width:100%;
-		text-align:center;
+	}
+	.left {
+	padding-right:20px;}	
+	.right>div{
+		margin-top:10px;
+	}
+	.message{
+		float: right;
+		margin-right: 40px;
+	}
+	.webResume{
+		display: none;
+	}
+	.photo{
+		display: none;
 	}
 }
-
-@media screen and (max-width:740px) {
-	.photo{display:none;}
-	.message{float:right;}
-}
-
-@media screen and (max-width:480px){
+@media screen and (max-width:530px){
+	.left,.right{
+		width:100%;
+	}
+	.left {
+	padding-right:20px;}	
+	.right>div{
+		margin-top:10px;
+	}
+	.webResume{
+		display: none;
+	}
+	.photo{
+		display: none;
+	}
 	.top .personal{
 		float:none;
 		width:300px;

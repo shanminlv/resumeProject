@@ -1,17 +1,20 @@
 <div  class="top" >
+	<div class="photo">
+		<img src="../images/me.jpg" alt="my personal photo">
+	</div>
+	<div class="webResume">
+		<p>扫码访问网页版简历</p>		
+		<img src="../images/resume.png" alt="my personal webResume">
+	</div>
 	<div class="message">
 		<p class="name">{{resume.name}}</p>
 		<p class="profession">{{resume.profession}}</p>
 	</div>
 	<ul class="personal">
 		<li class="personalList"><img src="../images/email.png"><span>{{resume.email}}</span></li>
-		<li class="personalList"><img src="../images/wechat.png"><span>{{resume.wechat}}</span></li>
-		<li class="personalList"><img src="../images/github.png"><span>{{resume.github}}</span></li>
+		<li class="personalList"><a href="{{resume.github}}" target="_blank"><img src="../images/github.png"><span>{{resume.github}}</span></a></li>
 		<li class="personalList"><img src="../images/telephone.png"><span>{{resume.telephone}}</span></li>
 		<li class="personalList"><img src="../images/education.png"><span>{{resume.school}}</span></li>
 	</ul>
-	<div class="photo">
-		<img src="../images/me.jpg" alt="my personal photo">
-	</div>
 </div><!-- 
 <p style="text-align: center">为方便查看各个项目代码与实例，可访问网页版简历：https://shanminlv.github.io/resumeProject/dist/index.html</p> -->

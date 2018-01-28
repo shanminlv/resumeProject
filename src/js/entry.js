@@ -7,7 +7,6 @@ workExperienceHtml=require('../template/workExperience'),
 frontEndHtml=require('../template/frontEnd'),
 otherSkillHtml=require('../template/otherSkill'),
 projectHtml=require('../template/project'),
-schoolHtml=require('../template/school'),
 topcss=require('../css/resume'),
 resume=require('../json/resume');
 
@@ -112,7 +111,6 @@ String.prototype.template = function(dom) {
 	frontEndHtml.template(document.getElementById('frontEnd'));
 	otherSkillHtml.template(document.getElementById('otherSkill'));
 	projectHtml.template(document.getElementById('projectList'));
-	schoolHtml.template(document.getElementById('school'));
 
 	document.getElementById('body').style.display="block";
 

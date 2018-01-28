@@ -20,14 +20,16 @@ img{-ms-interpolation-mode:bicubic}
 li{list-style-type:none}
 a{text-decoration:none}
 html{height:100%}
-.red{color:#f18184!important;}
+.red{color:#ed3c40!important;}
 body,html{-webkit-text-size-adjust:none;width:100%;font-family:'Helvetica Neue',Helvetica,'Microsoft Yahei','Hiragino Sans GB','WenQuanYi Micro Hei',sans-serif}
 body{font-size:16px;min-width: 320px;}
 
 @mixin clearfix{
 	&:after{content:'';display:block;height:0;clear:both;}
 }
-
+body{
+	font-weight:bold;
+}
 $blue:#1296DB;
 $gray:#333;
 $white:#fff;
@@ -50,4 +52,24 @@ $listpx:15px;
 	.#{$src}{
 		@include titleIcon($src);
 	}
+}
+@mixin center{
+	position: absolute;
+	left:50%;
+	-webkit-transform:translate(-50%,0);
+	transform:translate(-50%,0);
+}
+
+@mixin vertical{
+	position: absolute;
+	top:50%;
+	-webkit-transform:translate(0,-50%);
+	transform:translate(0%,-50%);
+}
+@mixin middle{
+	position: absolute;
+	left:50%;
+	top:50%;
+	-webkit-transform:translate(-50%,-50%);
+	transform:translate(-50%,-50%);
 }

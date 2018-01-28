@@ -13,15 +13,15 @@
 			width:25px;
 			vertical-align: middle;
 		}
+		li>a span{
+			color:#fff;
+		}
 		li span{
 			line-height:25px;
 			margin-left: 15px;
 		}
 	}
 	.message{
-		width: 40%;
-		margin: 0 auto;
-		height: 100%;
 		text-align: center;
 		.name{
 			font-size: 40px;
@@ -34,13 +34,28 @@
 	}
 	.photo{
 		float: right;
-		width:10%;
-		height:100px;
-		margin-top:10px;  
-		margin-right:60px;
+		width:76px;
+		height:88px;
+		margin-top: 6px;
+		margin-right:40px;
 		img{
 			width:100%;
 			height: 100%;
 		}
+	}
+	.webResume{
+		p{
+			font-size: 12px;
+			text-align: center;
+		}
+		img{
+			width: 80px;
+			@include center;
+		}
+		position: relative;
+		float: right;
+		width: 120px;
+		height: 100px;
+		margin-right:20px;
 	}
 }
