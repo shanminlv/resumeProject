@@ -8,8 +8,18 @@
 	"profession":"前端开发工程师",
 	"workExperience":[
 		{
+			"company":"聚效科技有限公司",
+			"date":"2018.07 ~ 至今",
+			"job":"<strong class='red'>前端组长</strong>",
+			"detail":[
+				"负责公司的小程序开发。",
+				"管理前端团队。",
+				"负责webview H5的开发。"
+			]
+		},
+		{
 			"company":"讯汇科技（广州）有限公司",
-			"date":"2017.05 ~ 至今",
+			"date":"2017.05 ~ 2018.07",
 			"job":"<strong class='red'>前端组长</strong>",
 			"detail":[
 				"运用vue主导公司pc端直播项目的开发。",
@@ -23,8 +33,7 @@
 			"job":"前端开发工程师",
 			"detail":[
 				"运用JQuery参与非车保险H5页面的开发。",
-				"使用zepto对非车保险出单产品模版进行代码重构。",
-				"新版非车产品H5模版的开发。"
+				"使用zepto对非车保险出单产品模版进行代码重构。"
 			]
 		},
 		{
@@ -56,23 +65,33 @@
 			"listDetail":["基本会gulp和<strong class='red'>webpack</strong>，并运用gulp和webpack开发了多个项目。"]
 		},
 		{
-			"skillName":"JavaScript/jQuery/Bootstrap",
-			"listDetail":["熟练使用JavaScript和jQuery，能模块化并封装代码。","基本会使用Bootstrap。"]
+			"skillName":"JavaScript/jQuery",
+			"listDetail":["熟练使用JavaScript和jQuery，能模块化并封装代码。"]
 		},
 		{
-			"skillName":"HTML/CSS",
-			"listDetail":["熟悉使的CSS3，SASS和HTML5，能实现较复杂的布局和动画。"]
+			"skillName":"HTML/CSS/webview",
+			"listDetail":["熟悉使的CSS3，SASS，HTML5和webview的交互，能实现较复杂的布局和动画。"]
 		}
 	],
 	"otherSkill":[
 		"能运用<strong class='red'>Node.js</strong>搭建服务器，并运用Node.js开发了个人项目。",
-		"简单使用过MongoDB，可以用Node.js对数据进行增减删操作。",
-		"基本会使用Photoshop设计美化图片。"
+		"简单使用过MongoDB，可以用Node.js对数据进行增减删操作。"
 	],
-	"project":[		
+	"project":[	
+		{
+			"name":"喵喵小程序",
+			"time":"",
+			"code":"",
+			"demo":"",
+			"detail":[
+				"使用原生框架开发小程序。",
+				"解决多条socket链接的问题。",
+				"对page，wx.request和socket进行封装。"
+			]
+		},	
 		{
 			"name":"<strong class='red'>讯汇科技pc端直播项目</strong>",
-			"time":"2017.5-至今",
+			"time":"2017.5-2018.7",
 			"code":"",
 			"demo":"",
 			"detail":[
@@ -85,7 +104,7 @@
 		},
 		{
 			"name":"<strong class='red'>讯汇科技H5直播项目</strong>",
-			"time":"2017.5-至今",
+			"time":"2017.5-2018.7",
 			"code":"",
 			"demo":"",
 			"detail":[
@@ -113,16 +132,6 @@
 				"运用node.js实现静态资源管理、socket.io模块实现聊天功能、fs模块实现文件的操作和数据的存储。",
 				"运用angular.js的控制器、指令、服务、过滤器和bootstrap构建前端。",
 				"数据库运用MongoDB。"
-			]
-		},
-		{
-			"name":"猎萌网站",
-			"code":"",
-			"demo":"",
-			"time":"2016.04－2016.06",
-			"detail":[
-				"运用angular.js的控制器、指令、服务、过滤器和bootstrap构建公司的单页网站。",
-				"运用git合作开发项目。"
 			]
 		},
 		{
