@@ -8,13 +8,16 @@
 	"profession":"前端开发工程师",
 	"workExperience":[
 		{
-			"company":"聚效科技有限公司",
-			"date":"2018.09 ~ 至今",
+			"company":"品今科技有限公司",
+			"date":"2018.09 ~ 2019.10",
 			"job":"<strong class='red'>前端组长</strong>",
 			"detail":[
-				"负责公司的小程序开发。",
+				"开发公司的小程序。",
 				"管理前端团队。",
-				"根据公司业务使用webpack4构建架构项目"
+				"根据公司业务使用webpack4构建架构项目。",
+				"轻遇项目的react-native研发。",
+				"人员招聘。",
+				"前端页面错误自动化监控"
 			]
 		},
 		{
@@ -22,9 +25,11 @@
 			"date":"2017.05 ~ 2018.09",
 			"job":"<strong class='red'>前端组长</strong>",
 			"detail":[
+				"使用Jenkins集成gulp和webpack，自动部署页面。",
 				"运用vue主导公司pc端直播项目的开发。",
 				"运用vue主导公司H5直播项目的开发。",
-				"解决直播项目中遇到的各类难题。"
+				"解决直播项目中遇到的各类难题。",
+				"编写nodejs爬虫。"
 			]
 		},
 		{
@@ -52,24 +57,24 @@
 			"skillName":"Vue",
 			"listDetail":[
 				"精通vue，能熟练运用vue,vue-router，vuex和vue-cli开发单页或多页项目。",
-				"<strong class='red'>使用vue服务端渲染，进行前后端同构。</strong>"
+				"使用vue服务端渲染，进行前后端同构。"
 			]
 		},
 		{
-			"skillName":"webpack",
-			"listDetail":["熟练使用webpack，能根据公司业务实现前端工程化与持续集成"]
+			"skillName":"webpack/jenkins",
+			"listDetail":["熟练使用webpack，能根据公司业务实现前端工程化与持续集成,使用jenkins实现自动部署"]
 		},
 		{
-			"skillName":"小程序",
+			"skillName":"微信小程序",
 			"listDetail":["熟练使用微信小程序"]
 		},
 		{
-			"skillName":"JavaScript/jQuery",
-			"listDetail":["熟练使用JavaScript和jQuery，经常模块化并封装代码。"]
+			"skillName":"ReactJS/react-native",
+			"listDetail":["基本会使用ReactJS和react-native"]
 		},
 		{
-			"skillName":"HTML/CSS/webview/ReactJS/AngularJS",
-			"listDetail":["熟悉使的CSS3，SASS，HTML5和webview的交互，基本会使用ReactJS和AngularJS。"]
+			"skillName":"HTML/CSS/JavaScript/jQuery/webview/AngularJS",
+			"listDetail":["熟悉使的JS,jQuery,CSS3，SASS，HTML5和webview的交互，基本会使用AngularJS。"]
 		}
 	],
 	"otherSkill":[
@@ -78,16 +83,18 @@
 	],
 	"project":[	
 		{
-			"name":"<strong class='red'>前端h5项目集成</strong>",
+			"name":"<strong class='red'>前端项目集成优化</strong>",
 			"time":"",
 			"code":"",
 			"demo":"",
 			"detail":[
-				"使用webpack4进行自动化构建。",
+				"使用Jenkins集成gulp和webpack，自动部署页面。",
 				"使用webpack4的工程化手段进行性能优化，提取公用代码，懒加载等。",
 				"实现类似node_module公司定制化的组件库。",
 				"根据公司业务实现多套活动模板。",
-				"实现增量发布部署后过期的冗余文件自动删除。"
+				"实现增量发布部署后过期的冗余文件自动删除。",
+				"h5页面性能优化。",
+				"前端页面错误自动化监控"
 			]
 		},		
 		{
@@ -116,7 +123,7 @@
 			]
 		},
 		{
-			"name":"喵喵小程序",
+			"name":"品今小程序",
 			"time":"",
 			"code":"",
 			"demo":"",
