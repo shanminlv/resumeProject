@@ -8,9 +8,21 @@
 	"profession":"前端开发工程师",
 	"workExperience":[
 		{
+			"company":"卓越果肉教育有限公司",
+			"date":"2020.1 ~ 至今",
+			"job":"<strong class='red'>前端开发工程师</strong>",
+			"detail":[
+				"开发老师端管理后台。",
+				"开发老师端上课工具和辅导工具。",
+				"开发学生端直播间和上课工具。",
+				"app运营后台开发（前后端）。",
+				"优化页面加载性能和运行性能。"
+			]
+		},
+		{
 			"company":"品今科技有限公司",
 			"date":"2018.09 ~ 2019.10",
-			"job":"<strong class='red'>前端组长</strong>",
+			"job":"前端组长",
 			"detail":[
 				"开发公司的小程序。",
 				"管理前端团队。",
@@ -46,7 +58,6 @@
 			"date":"2015.07-2015.12",
 			"job":"前端开发（实习）",
 			"detail":[
-				"负责公司专题网购页面的日常更新。",
 				"运用ajax、css3动画、angular.js进行专题组件的开发。",
 				"使用JavaScript对旧专题模板进行开发。"
 			]
@@ -54,7 +65,27 @@
 	],
 	"frontEnd":[
 		{
-			"skillName":"Vue",
+			"skillName":"ReactJS/next.js/react-native",
+			"listDetail":[
+				"熟练使用react，redux，rematch等react生态技术栈。",
+				"使用nextjs服务端渲染，进行前后端同构。",
+				"简单开发过react-native。"
+			]
+		},		
+		{
+			"skillName":"eggjs,nodejs,mysql",
+			"listDetail":[
+				"基本会使用eggjs，nodejs，mysql进行服务端开发。",
+			]
+		},		
+		{
+			"skillName":"typescript",
+			"listDetail":[
+				"熟练使用typescript进行前后端开发。",
+			]
+		},
+		{
+			"skillName":"Vue/nuxt.js",
 			"listDetail":[
 				"精通vue，能熟练运用vue,vue-router，vuex和vue-cli开发单页或多页项目。",
 				"使用vue服务端渲染，进行前后端同构。"
@@ -69,22 +100,35 @@
 			"listDetail":["熟练使用微信小程序"]
 		},
 		{
-			"skillName":"ReactJS/react-native",
-			"listDetail":["基本会使用ReactJS和react-native"]
-		},
-		{
 			"skillName":"HTML/CSS/JavaScript/jQuery/webview/AngularJS",
 			"listDetail":["熟悉使的JS,jQuery,CSS3，SASS，HTML5和webview的交互，基本会使用AngularJS。"]
 		}
 	],
-	"otherSkill":[
-		"能运用<strong class='red'>Node.js</strong>搭建服务器，并运用Node.js开发了个人项目。",
-		"简单使用过MongoDB，可以用Node.js对数据进行增减删操作。"
-	],
-	"project":[	
+	"otherSkills":[],
+	"project":[			
+		{
+			"name":"<strong class='red'>app运营后台开发（前后端）</strong>",
+			"time":"2020.9 ~ 至今",
+			"code":"",
+			"demo":"",
+			"detail":[
+				"使用eggjs，mysql，react进行app运营后台前后端开发。",
+			]
+		},	
+		{
+			"name":"老师端运营后台，老师端学生端上课工具，学生端直播间项目开发",
+			"time":"2018.09 ~ 2019.10",
+			"code":"",
+			"demo":"",
+			"detail":[
+				"搭建项目基建。",
+				"使用react全家桶进行项目开发。",
+				"分析内存瓶颈和加载瓶颈并解决优化问题。"
+			]
+		},	
 		{
 			"name":"<strong class='red'>前端项目集成优化</strong>",
-			"time":"",
+			"time":"2018.09 ~ 2019.10",
 			"code":"",
 			"demo":"",
 			"detail":[
@@ -128,17 +172,6 @@
 			"detail":[
 				"解决多条socket链接的问题。",
 				"对page，wx.request和socket进行封装。"
-			]
-		},
-		{
-			"name":"成长点滴webapp",
-			"code":"https://github.com/shanminlv/develop-chatApp",
-			"demo":"",
-			"time":"2016.01-2016.03",
-			"detail":[
-				"运用node.js实现静态资源管理、socket.io模块实现聊天功能、fs模块实现文件的操作和数据的存储。",
-				"运用angular.js的控制器、指令、服务、过滤器和bootstrap构建前端。",
-				"数据库运用MongoDB。"
 			]
 		},
 		{
