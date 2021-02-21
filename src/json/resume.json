@@ -1,206 +1,204 @@
 {
-	"name":"吕善敏",
-	"school":"华南师范大学（2012-2016）",
-	"education":"本科" ,
-	"telephone":"15625102090",
-	"email":"416668495@qq.com",
-	"github":"https://github.com/shanminlv",
-	"profession":"前端开发工程师",
-	"workExperience":[
-		{
-			"company":"卓越果肉教育有限公司",
-			"date":"2020.1 ~ 至今",
-			"job":"<strong class='red'>前端开发工程师</strong>",
-			"detail":[
-				"开发老师端管理后台。",
-				"开发老师端上课工具和辅导工具。",
-				"开发学生端直播间和上课工具。",
-				"app运营后台开发（前后端）。",
-				"优化页面加载性能和运行性能。"
-			]
-		},
-		{
-			"company":"品今科技有限公司",
-			"date":"2018.09 ~ 2019.10",
-			"job":"前端组长",
-			"detail":[
-				"开发公司的小程序。",
-				"管理前端团队。",
-				"根据公司业务使用webpack4构建架构项目。",
-				"轻遇项目的react-native研发。",
-				"前端页面错误自动化监控。"
-			]
-		},
-		{
-			"company":"讯汇科技（广州）有限公司",
-			"date":"2017.05 ~ 2018.09",
-			"job":"<strong class='red'>前端组长</strong>",
-			"detail":[
-				"使用Jenkins集成gulp和webpack，自动部署页面。",
-				"运用vue主导公司pc端直播项目的开发。",
-				"运用vue主导公司H5直播项目的开发。",
-				"解决直播项目中遇到的各类难题。",
-				"编写nodejs爬虫。",
-				"根据公司业务实现多套活动模板。"
-			]
-		},
-		{
-			"company":"平安科技（深圳）有限公司",
-			"date":"2016.07 ~ 2017.04",
-			"job":"前端开发工程师",
-			"detail":[
-				"运用JQuery参与非车保险H5页面的开发。",
-				"使用zepto对非车保险出单产品模版进行代码重构。"
-			]
-		},
-		{
-			"company":"唯品会",
-			"date":"2015.07-2015.12",
-			"job":"前端开发（实习）",
-			"detail":[
-				"运用ajax、css3动画、angular.js进行专题组件的开发。",
-				"使用JavaScript对旧专题模板进行开发。"
-			]
-		}
-	],
-	"frontEnd":[
-		{
-			"skillName":"ReactJS/next.js/react-native",
-			"listDetail":[
-				"熟练使用react，redux，rematch等react生态技术栈。",
-				"使用nextjs服务端渲染，进行前后端同构。",
-				"简单开发过react-native。"
-			]
-		},		
-		{
-			"skillName":"eggjs,nodejs,mysql",
-			"listDetail":[
-				"基本会使用eggjs，nodejs，mysql进行服务端开发。",
-			]
-		},		
-		{
-			"skillName":"typescript",
-			"listDetail":[
-				"熟练使用typescript进行前后端开发。",
-			]
-		},
-		{
-			"skillName":"Vue/nuxt.js",
-			"listDetail":[
-				"精通vue，能熟练运用vue,vue-router，vuex和vue-cli开发单页或多页项目。",
-				"使用vue服务端渲染，进行前后端同构。"
-			]
-		},
-		{
-			"skillName":"webpack/jenkins",
-			"listDetail":["熟练使用webpack，能根据公司业务实现前端工程化与持续集成,使用jenkins实现自动部署"]
-		},
-		{
-			"skillName":"微信小程序",
-			"listDetail":["熟练使用微信小程序"]
-		},
-		{
-			"skillName":"HTML/CSS/JavaScript/jQuery/webview/AngularJS",
-			"listDetail":["熟悉使的JS,jQuery,CSS3，SASS，HTML5和webview的交互，基本会使用AngularJS。"]
-		}
-	],
-	"otherSkills":[],
-	"project":[			
-		{
-			"name":"<strong class='red'>app运营后台开发（前后端）</strong>",
-			"time":"2020.9 ~ 至今",
-			"code":"",
-			"demo":"",
-			"detail":[
-				"使用eggjs，mysql，react进行app运营后台前后端开发。",
-			]
-		},	
-		{
-			"name":"老师端运营后台，老师端学生端上课工具，学生端直播间项目开发",
-			"time":"2018.09 ~ 2019.10",
-			"code":"",
-			"demo":"",
-			"detail":[
-				"搭建项目基建。",
-				"使用react全家桶进行项目开发。",
-				"分析内存瓶颈和加载瓶颈并解决优化问题。"
-			]
-		},	
-		{
-			"name":"<strong class='red'>前端项目集成优化</strong>",
-			"time":"2018.09 ~ 2019.10",
-			"code":"",
-			"demo":"",
-			"detail":[
-				"使用webpack4的工程化手段进行性能优化，提取公用代码，懒加载等。",
-				"实现类似node_module公司定制化的组件库。",
-				"实现增量发布部署后过期的冗余文件自动删除。",
-				"前端页面错误自动化监控。"
-			]
-		},		
-		{
-			"name":"<strong class='red'>讯汇科技pc端直播项目</strong>",
-			"time":"2017.5-2018.9",
-			"code":"",
-			"demo":"",
-			"detail":[
-				"使用vue,vuex,vue-router,vue-resource架构项目，以及配置webpack进行多页开发。",
-				"使用js和flash交互，进行rtmp的推流和播放，解决了音频视频不同步，弱网络判断，多条流媒体链接等技术难点。",
-				"首屏网站性能优化处理。",
-				"实现富文本编辑器并解决各个浏览器的兼容性问题。",
-				"运用独自封装的socket.js和服务器进行rpc交互,支持成功，失败，超时回调。",
-				"解决ie跨域不带cookie，各个浏览器flash的不同支持和浏览器缓存策略等兼容性问题。"
-			]
-		},
-		{
-			"name":"<strong class='red'>讯汇科技H5直播项目</strong>",
-			"time":"2017.5-2018.9",
-			"code":"",
-			"demo":"",
-			"detail":[
-				"使用rem进行屏幕自适应。",
-				"使用flvjs解决了m3u8播放延时。",
-				"解决了手机浏览器跨域不带cookie、video元素的全屏播放和网络缓慢不能继续播放等问题。",
-				"h5页面性能优化。"
-			]
-		},
-		{
-			"name":"品今小程序",
-			"time":"",
-			"code":"",
-			"demo":"",
-			"detail":[
-				"解决多条socket链接的问题。",
-				"对page，wx.request和socket进行封装。"
-			]
-		},
-		{
-			"name":"非车保险H5旧模版的项目重构",
-			"code":"",
-			"demo":"",
-			"time":"2017.02－2016.03",
-			"detail":[
-				"运用zepto.js和LABjs对原来的代码进行重构。",
-				"提取公共代码，提高代码重用率,优化代码提高代码效率与可读性。"
-			]
-		},
-		{
-			"name":"页面代码生成器",
-			"code":"https://github.com/shanminlv/pctool",
-			"demo":"https://shanminlv.github.io/pctool/index.html",
-			"time":"2015.12",
-			"detail":[
-				"个人运用canvas、file API、拖放、开发了日常需求页面的代码生成器。提高了公司的开发效率。"
-			]
-		},
-		{
-			"name":"vue简历生成工具",
-			"code":"https://github.com/shanminlv/vue-resume",
-			"demo":"https://shanminlv.github.io/vue-resume/dist/index.html#/edit/resumeBlue",
-			"time":"2017.01",
-			"detail":[
-				"运用htmltocanvas，jspdf，file API，new Blob导出图片版，网页版和pdf版简历。"
-			]
-		}
-	]
+  "name": "吕善敏",
+  "school": "华南师范大学（2012-2016）",
+  "education": "本科",
+  "telephone": "15625102090",
+  "email": "416668495@qq.com",
+  "github": "https://github.com/shanminlv",
+  "profession": "前端开发工程师",
+  "workExperience": [
+    {
+      "company": "卓越果肉教育有限公司",
+      "date": "2020.1 ~ 至今",
+      "job": "<strong class='red'>前端开发工程师</strong>",
+      "detail": [
+        "开发老师端管理后台。",
+        "开发老师端上课工具和辅导工具。",
+        "开发学生端直播间和上课工具。",
+        "app运营后台开发（前后端）。",
+        "优化页面加载性能和运行性能。"
+      ]
+    },
+    {
+      "company": "品今科技有限公司",
+      "date": "2018.09 ~ 2019.10",
+      "job": "前端组长",
+      "detail": [
+        "开发公司的小程序。",
+        "管理前端团队。",
+        "根据公司业务使用webpack4构建架构项目。",
+        "轻遇项目的react-native研发。",
+        "前端页面错误自动化监控。"
+      ]
+    },
+    {
+      "company": "讯汇科技（广州）有限公司",
+      "date": "2017.05 ~ 2018.09",
+      "job": "<strong class='red'>前端组长</strong>",
+      "detail": [
+        "使用Jenkins集成gulp和webpack，自动部署页面。",
+        "运用vue主导公司pc端直播项目的开发。",
+        "运用vue主导公司H5直播项目的开发。",
+        "解决直播项目中遇到的各类难题。",
+        "编写nodejs爬虫。",
+        "根据公司业务实现多套活动模板。"
+      ]
+    },
+    {
+      "company": "平安科技（深圳）有限公司",
+      "date": "2016.07 ~ 2017.04",
+      "job": "前端开发工程师",
+      "detail": [
+        "运用JQuery参与非车保险H5页面的开发。",
+        "使用zepto对非车保险出单产品模版进行代码重构。"
+      ]
+    },
+    {
+      "company": "唯品会",
+      "date": "2015.07-2015.12",
+      "job": "前端开发（实习）",
+      "detail": [
+        "运用ajax、css3动画、angular.js进行专题组件的开发。",
+        "使用JavaScript对旧专题模板进行开发。"
+      ]
+    }
+  ],
+  "frontEnd": [
+    {
+      "skillName": "ReactJS/next.js/react-native",
+      "listDetail": [
+        "熟练使用react，redux，rematch等react生态技术栈。",
+        "使用nextjs服务端渲染，进行前后端同构。",
+        "简单开发过react-native。"
+      ]
+    },
+    {
+      "skillName": "eggjs,nodejs,mysql",
+      "listDetail": ["基本会使用eggjs，nodejs，mysql进行服务端开发。"]
+    },
+    {
+      "skillName": "typescript",
+      "listDetail": ["熟练使用typescript进行前后端开发。"]
+    },
+    {
+      "skillName": "Vue/nuxt.js",
+      "listDetail": [
+        "精通vue，能熟练运用vue,vue-router，vuex和vue-cli开发单页或多页项目。",
+        "使用vue服务端渲染，进行前后端同构。"
+      ]
+    },
+    {
+      "skillName": "webpack/jenkins",
+      "listDetail": [
+        "熟练使用webpack，能根据公司业务实现前端工程化与持续集成,使用jenkins实现自动部署"
+      ]
+    },
+    {
+      "skillName": "微信小程序",
+      "listDetail": ["熟练使用微信小程序"]
+    },
+    {
+      "skillName": "HTML/CSS/JavaScript/jQuery/webview/AngularJS",
+      "listDetail": [
+        "熟悉使的JS,jQuery,CSS3，SASS，HTML5和webview的交互，基本会使用AngularJS。"
+      ]
+    }
+  ],
+  "otherSkills": [],
+  "project": [
+    {
+      "name": "<strong class='red'>app运营后台开发（前后端）</strong>",
+      "time": "2020.9 ~ 至今",
+      "code": "",
+      "demo": "",
+      "detail": ["使用eggjs，mysql，react进行app运营后台前后端开发。"]
+    },
+    {
+      "name": "老师端运营后台，老师端学生端上课工具，学生端直播间项目开发",
+      "time": "2018.09 ~ 2019.10",
+      "code": "",
+      "demo": "",
+      "detail": [
+        "搭建项目基建。",
+        "使用react全家桶进行项目开发。",
+        "分析内存瓶颈和加载瓶颈并解决优化问题。"
+      ]
+    },
+    {
+      "name": "<strong class='red'>前端项目集成优化</strong>",
+      "time": "2018.09 ~ 2019.10",
+      "code": "",
+      "demo": "",
+      "detail": [
+        "使用webpack4的工程化手段进行性能优化，提取公用代码，懒加载等。",
+        "实现类似node_module公司定制化的组件库。",
+        "实现增量发布部署后过期的冗余文件自动删除。",
+        "前端页面错误自动化监控。"
+      ]
+    },
+    {
+      "name": "<strong class='red'>讯汇科技pc端直播项目</strong>",
+      "time": "2017.5-2018.9",
+      "code": "",
+      "demo": "",
+      "detail": [
+        "使用vue,vuex,vue-router,vue-resource架构项目，以及配置webpack进行多页开发。",
+        "使用js和flash交互，进行rtmp的推流和播放，解决了音频视频不同步，弱网络判断，多条流媒体链接等技术难点。",
+        "首屏网站性能优化处理。",
+        "实现富文本编辑器并解决各个浏览器的兼容性问题。",
+        "运用独自封装的socket.js和服务器进行rpc交互,支持成功，失败，超时回调。",
+        "解决ie跨域不带cookie，各个浏览器flash的不同支持和浏览器缓存策略等兼容性问题。"
+      ]
+    },
+    {
+      "name": "<strong class='red'>讯汇科技H5直播项目</strong>",
+      "time": "2017.5-2018.9",
+      "code": "",
+      "demo": "",
+      "detail": [
+        "使用rem进行屏幕自适应。",
+        "使用flvjs解决了m3u8播放延时。",
+        "解决了手机浏览器跨域不带cookie、video元素的全屏播放和网络缓慢不能继续播放等问题。",
+        "h5页面性能优化。"
+      ]
+    },
+    {
+      "name": "品今小程序",
+      "time": "",
+      "code": "",
+      "demo": "",
+      "detail": [
+        "解决多条socket链接的问题。",
+        "对page，wx.request和socket进行封装。"
+      ]
+    },
+    {
+      "name": "非车保险H5旧模版的项目重构",
+      "code": "",
+      "demo": "",
+      "time": "2017.02－2016.03",
+      "detail": [
+        "运用zepto.js和LABjs对原来的代码进行重构。",
+        "提取公共代码，提高代码重用率,优化代码提高代码效率与可读性。"
+      ]
+    },
+    {
+      "name": "页面代码生成器",
+      "code": "https://github.com/shanminlv/pctool",
+      "demo": "https://shanminlv.github.io/pctool/index.html",
+      "time": "2015.12",
+      "detail": [
+        "个人运用canvas、file API、拖放、开发了日常需求页面的代码生成器。提高了公司的开发效率。"
+      ]
+    },
+    {
+      "name": "vue简历生成工具",
+      "code": "https://github.com/shanminlv/vue-resume",
+      "demo": "https://shanminlv.github.io/vue-resume/dist/index.html#/edit/resumeBlue",
+      "time": "2017.01",
+      "detail": [
+        "运用htmltocanvas，jspdf，file API，new Blob导出图片版，网页版和pdf版简历。"
+      ]
+    }
+  ]
 }
