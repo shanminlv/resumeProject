@@ -52,15 +52,6 @@
         "运用JQuery参与非车保险H5页面的开发。",
         "使用zepto对非车保险出单产品模版进行代码重构。"
       ]
-    },
-    {
-      "company": "唯品会",
-      "date": "2015.07-2015.12",
-      "job": "前端开发（实习）",
-      "detail": [
-        "运用ajax、css3动画、angular.js进行专题组件的开发。",
-        "使用JavaScript对旧专题模板进行开发。"
-      ]
     }
   ],
   "frontEnd": [
@@ -83,7 +74,7 @@
     {
       "skillName": "Vue/nuxt.js",
       "listDetail": [
-        "精通vue，能熟练运用vue,vue-router，vuex和vue-cli开发单页或多页项目。",
+        "熟练运用vue,vue-router，vuex和vue-cli开发单页或多页项目。",
         "使用vue服务端渲染，进行前后端同构。"
       ]
     },
@@ -104,7 +95,7 @@
       ]
     }
   ],
-  "otherSkills": [],
+  "otherSkill": [],
   "project": [
     {
       "name": "<strong class='red'>app运营后台开发（前后端）</strong>",
@@ -114,8 +105,8 @@
       "detail": ["使用eggjs，mysql，react进行app运营后台前后端开发。"]
     },
     {
-      "name": "老师端运营后台，老师端学生端上课工具，学生端直播间项目开发",
-      "time": "2018.09 ~ 2019.10",
+      "name": "老师端运营后台，老师端上课工具，学生端直播间项目开发",
+      "time": "2020.01 ~ 至今",
       "code": "",
       "demo": "",
       "detail": [
